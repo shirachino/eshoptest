@@ -1,0 +1,90 @@
+.top_logo{
+	position: relative;
+}
+.sk{
+	position: absolute;
+	top: 25px;
+	left: 215px;
+	height: 30px;
+	width: 80px;
+	padding-left: 10px;
+	color: #C81623;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 600;
+	border-left: 2px solid #C81623;
+}
+.list_hd{
+	height: 160px;
+}
+.list_hd img{
+	height: 100%;
+}
+.list_bd ul li{
+	float: left;
+	margin:13px 13px 0 0;
+	width: 290px;
+	height: 433px;
+	border: 1px solid transparent;
+}
+.list_bd ul li:nth-child(4n){
+	margin-right: 0;
+}
+.list_bd ul li:hover{
+	border: 1px solid #C81623;
+}
+.info{
+	padding: 10px;
+}
+.info img{
+	width: 100%;
+}
+.info h3{
+	float: left;
+	margin: 10px 10px 0 0;
+	font-size: 20px;
+	color: #C81623;
+}
+.info h6{
+	float: left;
+	margin-top: 20px;
+	font-size: 8px;
+	color: #666666;
+}
+.info i{
+	float: left;
+	margin: 5px 0;
+	height: 18px;
+	font-size: 13px;
+}
+.process{
+	float: left;
+	margin: 10px 10px;
+	width: 140px;
+	height: 8px;
+	border: 1px solid #C81623;
+	border-radius: 4px;
+}
+.processing{
+	width: 100px;
+	height: 6px;
+	border-radius: 4px;
+	background-color: #C81623;
+	transition: width .5s;
+}
+.process:hover .processing{
+	width: 130px;
+}
+.buy{
+	float: left;
+	text-align: center;
+}
+.buy a{
+	display: block;
+	width: 288px;
+	height: 50px;
+	background-color: #C81623;
+	color: white;
+	font-size: 16px;
+	line-height: 50px;
+}
